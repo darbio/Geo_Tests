@@ -66,7 +66,7 @@ namespace ConsoleApplication1
 
             var elapsed = dateEnd - dateStart;
 
-            Console.WriteLine("{0} to find one envelope in {1} envelopes ({2})", elapsed, mapSheets.Count, map.Name);
+            Console.WriteLine($"{elapsed} to find one envelope in {mapSheets.Count} envelopes ({map.Name})");
             Console.ReadKey();
         }
     }
